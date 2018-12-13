@@ -1,0 +1,142 @@
+body{
+    margin: 0px ;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    background-image: -ms-linear-gradient(left, #52D1FF 0%, #4791FF 100%);
+    background-image: -moz-linear-gradient(left, #52D1FF 0%, #4791FF 100%);
+    background-image: -o-linear-gradient(left, #52D1FF 0%, #4791FF 100%);
+    background-image: -webkit-linear-gradient(left, #52D1FF 0%, #4791FF 100%);
+    background-image: linear-gradient(to right, #52D1FF 0%, #4791FF 100%);
+}
+*{
+    z-index: 2;
+}
+
+a{
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    display: inline-block;
+}
+
+
+a:hover{
+    color:#141414;  
+}
+
+.right{
+    float:right;
+}
+
+.card{
+    max-width: 60%;
+    margin: 10% auto 30px;
+    background: #ffffffce;
+    color: #303030;
+
+}
+
+.card-social{
+    max-width: 60%;
+    margin: 3% auto 0;
+    background: #ffffffce;
+    color: #303030;
+}
+
+.card-social h3{
+    font-size: 1.7em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.card-social p{
+    font-size: 1.4em;
+}
+
+.icon{
+    width: 200px;
+    position: relative;
+    bottom:55px;
+    float: right;
+}
+
+.card-social h3{
+    padding: 10px;
+}
+
+.card-social p{
+    padding-left: 10px;
+    margin:2;
+}
+.card-social a{
+    color: #4791FF;
+    text-align:  center;
+    padding: 10px;
+    margin:0 auto;
+    display: inline-block;
+}
+
+.card-social a:hover{
+    color: rgb(14, 56, 119);
+}
+
+.card h1{
+    font-size: 5.9em;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    letter-spacing: 0.09em;
+    font-family: 'Roboto Slab', serif;
+    font-weight:550;
+    bottom: 70px;
+    
+}
+
+.card h2{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 55px;
+    text-align: center;
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+}
+
+.med-round{
+    width: 200px;
+    display: block;
+    border-radius: 100%;
+    position: relative;
+    left:calc(50% - 100px);
+    bottom: 58px;
+}
+
+.home-text{
+    max-width: 896px;
+    margin:0 auto;
+    font-size: 1.55em;
+    margin-top:20px;
+    color: white;
+}
+
+#particles-js{
+    display: inline;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.blue-bold{
+    color: #4791FF;
+    font-weight: bold;
+    font-size: 1.1em;
+    
+}

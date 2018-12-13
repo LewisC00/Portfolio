@@ -1,0 +1,67 @@
+@media screen and (max-width:459px){
+    .right{
+        float:none;
+    }
+
+    .nav a{
+        color: black;
+    }
+
+    .nav a:hover{
+        color: rgb(22, 22, 22);
+    }
+
+    .nav{
+        background:#ffffffce;
+        
+    }
+
+    a{
+        font-size: 1.15em;
+        padding: 13.5px;
+        margin: 0;
+    }
+
+    .card{
+        background: #00000000;
+        color:white;
+        margin-top: 20%;
+    }
+
+    .card-social    {
+        max-width: 100%;
+        margin:0 auto 0;
+    }
+
+    .card-social h3{
+        margin: 0;
+        text-align: center;
+    }
+
+    .card-social img{
+        width: 50%;
+        padding: 0% 25%;
+        bottom: 0px;
+    }
+    .blue-bold{
+        color: white;
+    }
+
+    nav{
+        margin: 0 auto;
+    }
+    .card h1{
+        font-size: 3.2em;
+        bottom: 53px;
+        letter-spacing: 0.03em;
+        font-weight: 600;
+    }
+    .card h2{
+        font-size: 1.2em;
+        bottom: 30px;
+    }
+    
+    .home-text{
+        margin:0 5%;
+    }
+}

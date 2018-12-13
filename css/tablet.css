@@ -1,0 +1,34 @@
+@media screen and (max-width:960px){
+ .card h1{
+     font-size: 3.8em;
+     letter-spacing: 0.05em;
+ }   
+ .card h2{
+     font-size: 1.4em;
+ }
+ .card{
+     max-width: 598px;
+     margin-top: 15%;
+     position: static;
+     display: block;
+ }
+
+ .med-round{
+    width: 150px;
+    left:calc(50% - 75px);
+ }
+
+ .home-text{
+     max-width: 592px;
+ }
+
+a{
+    padding: 15px;
+}
+
+.card-social{
+    max-width: 90%;
+}
+
+
+}
